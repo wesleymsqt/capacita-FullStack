@@ -1,0 +1,63 @@
+.hero {
+  position: relative;
+  background: url('../../assets/image.png') no-repeat center center;
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-hero {
+  background-color: #ffffff99;
+  border-radius: 10px;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.container h2 {
+  color: rgb(71, 131, 223);
+  font-size: 2.5rem;
+
+  margin-bottom: 15px;
+}
+
+.container p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  .hero {
+    height: 100vh;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}

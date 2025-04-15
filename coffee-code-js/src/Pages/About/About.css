@@ -1,0 +1,16 @@
+.main-about{
+    display: box;
+    background-color: #fff;
+    padding-bottom: 10px;
+} 
+
+p{
+    text-align: justify;
+    margin-inline: 20%;
+    margin-bottom: 3%;
+}
+
+.carrossel{
+    margin-inline: 20%;
+    margin-bottom: 2%;
+}

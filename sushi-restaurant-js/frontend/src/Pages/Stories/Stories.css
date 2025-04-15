@@ -1,0 +1,45 @@
+.container-everything{
+    padding-top: 20px;
+    background-color: #e6e6e6;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+h2{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center; 
+    color: #920a0a;
+}
+
+.beginning-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(37, 31, 31);
+}
+
+.container-stories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-inline: 30px;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+p{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 14px;
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    color:#920a0a;
+}

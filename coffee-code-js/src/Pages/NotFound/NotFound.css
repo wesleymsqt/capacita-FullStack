@@ -1,0 +1,25 @@
+.main-not-found{
+    flex: 1;
+    display: block;
+    background-color: #f3e9e1;
+    color: #4783df;
+    width: 100vw;
+
+    & h2{
+        margin-top: 10%;
+        margin-bottom: 0.5%;
+        text-align: center;
+        font-style: normal;
+        font-size: 4rem;
+        color: #4783df;
+        font-weight: 400;
+    }
+
+    & h4{
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #4783df;
+    font-weight: 400;
+    }
+} 

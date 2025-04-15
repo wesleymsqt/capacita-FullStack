@@ -1,0 +1,26 @@
+footer {
+  background-color: #080808;
+  text-align: center;
+  padding: 16px 0;
+  position: relative;
+  min-width: 100%;
+  z-index: 2;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+}

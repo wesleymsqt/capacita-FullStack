@@ -1,0 +1,26 @@
+footer {
+  background-color: rgb(71, 131, 223);
+  text-align: center;
+  padding: 2px 0;
+  position: relative;
+  min-width: 100%;
+  z-index: 2;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,15 @@
+* {
+  font-family: 'Roboto', cursive, sans-serif;
+}
+
+/* Ajuste no layout da pagina */
+.router-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+/* Faz com que a pgina ocupe todo layout restante, garantindo q o footer fique sempre no final da pagina */
+.routes {
+  flex: 1;
+}

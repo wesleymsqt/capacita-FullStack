@@ -1,0 +1,27 @@
+.main-about{
+    display: box;
+    background-color: #e6e6e6;
+    padding-top: 10px;
+    padding-bottom: 30px;
+} 
+
+p{
+    text-align: justify;
+    margin-inline: 20%;
+    margin-bottom: 3%;
+}
+
+.carrossel{
+    margin-inline: 20%;
+    margin-bottom: 2%;
+}
+
+.about-title{
+    color: #920a0a;
+    font-size: 40px;
+}
+
+.about-text{
+    color: #080808;
+    font-size: 18px;
+}

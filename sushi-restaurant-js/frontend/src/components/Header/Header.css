@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #080808;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 18px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #fff;
+  color: #920a0a !important;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.navbar-title {
+  font-family: 'Brush Script MT', cursive;
+  color: #d70000 !important;
+  font-size: 36px;
+  padding-top: 4px;
+}

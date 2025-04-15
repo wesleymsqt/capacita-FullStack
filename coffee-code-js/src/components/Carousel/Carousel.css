@@ -1,0 +1,11 @@
+.caption{
+    background-color: #ffffffa9;
+    color: #333;
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    padding-block: 10px;
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
